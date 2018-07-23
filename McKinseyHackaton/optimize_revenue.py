@@ -27,14 +27,18 @@ def optimal_incentives(prob, premium):
                            )
 
         opt.append(res.x)
-
-        ProgressBar.update()
+        
+        try:
+            ProgressBar.update()
+        except Exception as e:
+            print(e)
+            pass
 
     return opt
 
 # find opimal incentives
 data['incentives'] = \
-    optimal_incentives(data['renewal'].tolist()[:5], data['premium'].tolist()[:5])
+    optimal_incentives(data['renewal'].tolist(), data['premium'].tolist())
 
 data = data.drop('premium', axis=1)
 
