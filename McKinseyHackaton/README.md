@@ -12,11 +12,14 @@ aggregated historical transactional data like number of premiums delayed by 3/6/
 premiums paid, customer sourcing channel and customer demographics like age, monthly income and area type.
  
 In addition to the information above, the client has provided the following relationships:
-1. Expected effort in hours put in by an agent for incentives provided; and
+1. Expected effort in hours put in by an agent for incentives provided.
 2. Expected increase in chances of renewal, given the effort from the agent.
  
 Given the information, the client wants you to predict the propensity of renewal collection and create an incentive plan for agents (at
 policy level) to maximise the net revenues from these policies.
+
+# My Solution
+Stacked prediction (Logistic Regresion) using probabilites and 1 feature from 3 different models: XGBoost, Neural Network, Random Forest. These were performing the best in terms of AUC and LogLoss. 
 
 # Results
 * 2nd on the public leaderboard.
