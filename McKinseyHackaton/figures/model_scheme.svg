@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="538px" height="222px" viewBox="0 0 538 222" enable-background="new 0 0 538 222" xml:space="preserve">
+<rect x="16.289" y="55.549" fill="none" width="137.5" height="9.5"/>
+<text transform="matrix(1 0 0 1 17.2913 61.8378)" font-family="'CambriaMath'" font-size="9">perc_premium_paid_by_cash_credit</text>
+<rect x="14.173" y="54.063" fill="none" stroke="#000000" stroke-miterlimit="10" width="141.732" height="11.339"/>
+<rect x="16.289" y="69.722" fill="none" width="137.5" height="9.5"/>
+<text transform="matrix(1 0 0 1 40.3997 76.011)" font-family="'CambriaMath'" font-size="9">Count_3-6_months_late</text>
+<rect x="14.173" y="153.276" fill="none" stroke="#000000" stroke-miterlimit="10" width="141.732" height="11.339"/>
+<rect x="16.289" y="83.896" fill="none" width="137.5" height="9.5"/>
+<text transform="matrix(1 0 0 1 37.908 90.1842)" font-family="'CambriaMath'" font-size="9">Count_6-12_months_late</text>
+<rect x="16.289" y="98.069" fill="none" width="137.5" height="9.5"/>
+<text transform="matrix(1 0 0 1 19.6556 104.3575)" font-family="'CambriaMath'" font-size="9">Count_more_than_12_months_late</text>
+<rect x="16.289" y="112.242" fill="none" width="137.5" height="9.5"/>
+<text transform="matrix(1 0 0 1 43.223 118.5307)" font-family="'CambriaMath'" font-size="9">no_of_premiums_paid</text>
+<rect x="16.289" y="126.415" fill="none" width="137.5" height="9.5"/>
+<text transform="matrix(1 0 0 1 24.1595 132.7039)" font-family="'CambriaMath'" font-size="9">application_underwriting_score</text>
+<rect x="16.289" y="140.589" fill="none" width="137.5" height="9.5"/>
+<text transform="matrix(1 0 0 1 70.7571 146.8772)" font-family="'CambriaMath'" font-size="9">Income</text>
+<rect x="16.289" y="154.762" fill="none" width="137.5" height="9.5"/>
+<text transform="matrix(1 0 0 1 62.4319 161.0504)" font-family="'CambriaMath'" font-size="9">age_in_days</text>
+<rect x="293.375" y="15" fill="none" width="60.25" height="35.5"/>
+<text transform="matrix(1 0 0 1 303.5732 22.686)"><tspan x="0" y="0" font-family="'CambriaMath'" font-size="11">XGBoost</tspan><tspan x="-9.276" y="8.4" font-family="'CambriaMath'" font-size="7">n_estimators = 250</tspan><tspan x="-2.532" y="16.8" font-family="'CambriaMath'" font-size="7">reg_alpha = 12</tspan><tspan x="-3.486" y="25.2" font-family="'CambriaMath'" font-size="7">reg_lambda = 0</tspan></text>
+<rect x="278.75" y="88" fill="none" width="89.5" height="43.339"/>
+<text transform="matrix(1 0 0 1 287.5195 95.6855)"><tspan x="0" y="0" font-family="'CambriaMath'" font-size="11">Random Forest</tspan><tspan x="6.777" y="8.4" font-family="'CambriaMath'" font-size="7">n_estimators = 250</tspan><tspan x="11.563" y="16.801" font-family="'CambriaMath'" font-size="7">criterion = ‘gini’</tspan><tspan x="-0.081" y="25.2" font-family="'CambriaMath'" font-size="7">min_samples_leaf = 100</tspan><tspan x="2.664" y="33.601" font-family="'CambriaMath'" font-size="7">min_samples_split = 3</tspan></text>
+<rect x="263" y="169.569" fill="none" width="121" height="37.931"/>
+<text transform="matrix(1 0 0 1 285.7461 177.2544)"><tspan x="0" y="0" font-family="'CambriaMath'" font-size="11">Neural Network</tspan><tspan x="-20.816" y="8.4" font-family="'CambriaMath'" font-size="7">layers: 8-32(relu)-16(relu)-1(sigmoid)</tspan><tspan x="21.17" y="16.801" font-family="'CambriaMath'" font-size="7">epochs = 9</tspan><tspan x="12.429" y="25.2" font-family="'CambriaMath'" font-size="7">batch_size = 200</tspan></text>
+<line fill="#94938F" stroke="#E54633" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="59.732" x2="262.5" y2="32.75"/>
+<line fill="none" stroke="#E54633" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="74.472" x2="262.5" y2="32.75"/>
+<line fill="none" stroke="#E54633" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="88" x2="262.5" y2="32.75"/>
+<line fill="none" stroke="#E54633" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="102.252" x2="262.5" y2="32.75"/>
+<line fill="none" stroke="#E54633" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="116.425" x2="262.5" y2="32.75"/>
+<line fill="none" stroke="#E54633" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="130.598" x2="262.5" y2="32.75"/>
+<line fill="none" stroke="#E54633" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="144.772" x2="262.5" y2="32.75"/>
+<line fill="none" stroke="#E54633" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="158.945" x2="262.5" y2="32.75"/>
+<line fill="none" stroke="#5B4AA8" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="59.732" x2="262.5" y2="110.756"/>
+<line fill="none" stroke="#5B4AA8" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="74.472" x2="262.5" y2="110.756"/>
+<line fill="none" stroke="#5B4AA8" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="88" x2="262.5" y2="110.756"/>
+<line fill="none" stroke="#5B4AA8" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="102.252" x2="262.5" y2="110.756"/>
+<line fill="none" stroke="#5B4AA8" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="116.425" x2="262.5" y2="110.756"/>
+<line fill="none" stroke="#5B4AA8" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="130.598" x2="262.5" y2="110.756"/>
+<line fill="none" stroke="#5B4AA8" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="144.772" x2="262.5" y2="110.756"/>
+<line fill="none" stroke="#5B4AA8" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="158.945" x2="262.5" y2="110.756"/>
+<line fill="none" stroke="#22AB6A" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="59.732" x2="262.5" y2="188.534"/>
+<line fill="none" stroke="#22AB6A" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="74.472" x2="262.5" y2="188.534"/>
+<line fill="none" stroke="#22AB6A" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="88" x2="262.5" y2="188.534"/>
+<line fill="none" stroke="#22AB6A" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="102.252" x2="262.5" y2="188.534"/>
+<line fill="none" stroke="#22AB6A" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="116.425" x2="262.5" y2="188.534"/>
+<line fill="none" stroke="#22AB6A" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="130.598" x2="262.5" y2="188.534"/>
+<line fill="none" stroke="#22AB6A" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="144.772" x2="262.5" y2="188.534"/>
+<line fill="none" stroke="#22AB6A" stroke-width="0.5" stroke-miterlimit="10" x1="155.906" y1="158.945" x2="262.5" y2="188.534"/>
+<rect x="119.667" y="184" transform="matrix(0.9015 0.4327 -0.4327 0.9015 94.3612 -38.3023)" fill="none" width="23.333" height="8.333"/>
+<rect x="465" y="97.029" fill="none" width="63" height="29.242"/>
+<text transform="matrix(1 0 0 1 478.2061 104.7156)"><tspan x="0" y="0" font-family="'CambriaMath'" font-size="11">Logistic </tspan><tspan x="-7.724" y="13.199" font-family="'CambriaMath'" font-size="11">Regression</tspan></text>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="384.5" y1="32.75" x2="461.5" y2="109.669"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="384.5" y1="110.756" x2="461.5" y2="109.669"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="384.5" y1="188.167" x2="461.5" y2="109.669"/>
+<path fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4" d="M155.906,59.732
+	c0,0,165.457,8.666,219.761,14.855c40.667,4.635,85.833,35.082,85.833,35.082"/>
+<rect x="177.829" y="154.056" transform="matrix(0.9455 0.3256 -0.3256 0.9455 62.2339 -52.5878)" fill="none" width="20.828" height="11.194"/>
+<text transform="matrix(0.9455 0.3256 -0.3256 0.9455 181.374 158.0202)" font-family="'CambriaMath'" font-size="9">Log</text>
+<rect x="167.936" y="164.113" transform="matrix(0.9659 0.2588 -0.2588 0.9659 50.3375 -42.9297)" fill="none" width="40.549" height="11.194"/>
+<text transform="matrix(0.9659 0.2588 -0.2588 0.9659 172.67 166.2622)" font-family="'CambriaMath'" font-size="9">Box-Cox</text>
+<rect x="262.5" y="6.5" fill="none" stroke="#000000" stroke-miterlimit="10" width="122" height="52"/>
+<rect x="262.5" y="83.5" fill="none" stroke="#000000" stroke-miterlimit="10" width="122" height="52"/>
+<rect x="262.5" y="160.5" fill="none" stroke="#000000" stroke-miterlimit="10" width="122" height="52"/>
+<rect x="14.173" y="139.102" fill="none" stroke="#000000" stroke-miterlimit="10" width="141.732" height="11.339"/>
+<rect x="14.173" y="124.929" fill="none" stroke="#000000" stroke-miterlimit="10" width="141.732" height="11.339"/>
+<rect x="14.173" y="110.756" fill="none" stroke="#000000" stroke-miterlimit="10" width="141.732" height="11.339"/>
+<rect x="14.173" y="96.583" fill="none" stroke="#000000" stroke-miterlimit="10" width="141.732" height="11.339"/>
+<rect x="14.173" y="82.409" fill="none" stroke="#000000" stroke-miterlimit="10" width="141.732" height="11.339"/>
+<rect x="14.173" y="68.236" fill="none" stroke="#000000" stroke-miterlimit="10" width="141.732" height="11.339"/>
+<rect x="14.173" y="54.063" fill="none" stroke="#000000" stroke-miterlimit="10" width="141.732" height="11.339"/>
+<rect x="461.5" y="93.5" fill="none" stroke="#000000" stroke-miterlimit="10" width="71" height="32"/>
+</svg>
