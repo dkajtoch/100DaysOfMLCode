@@ -31,6 +31,8 @@ In case of Neural Network `Income` was transformed using `log(x)` function and `
 
 # Summary
 
+<img src="./figures/score_summary.svg" width=800 height="400" />
+
 # Results
 * 2nd on the public leaderboard.
 * 4th on the private leaderboard.
