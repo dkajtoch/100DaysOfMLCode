@@ -32,7 +32,7 @@ In case of Neural Network `Income` was transformed using `log(x)` function and `
 # Summary
 5000+ people registered. 900+ participants in the competition. Score distribution on the public and private leaderboard is presenetd below. 
 
-<img src="./figures/summary_score.svg" width=1000 height="600" />
+<img src="./figures/summary_score.svg" width=1000 height="400" />
 
 # Results
 * 2nd on the public leaderboard.
