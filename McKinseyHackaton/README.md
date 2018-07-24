@@ -49,7 +49,7 @@ Public leaderboard is based on 40% of the policies, while private leaderboard wi
 
 
 # My Solution
-![model scheme](./figures/model_scheme.svg)
+![model scheme](./figures/model_scheme.svg){:height="150%" width="150%"}
 Stacking using optimized XGBoost, Random Forest and Neural Network Classifiers. The 3 models were performing the best in terms of AUC and LogLoss.
 Output probabilities were used as an input to the Logistic Regression classifier with and without extra feature. 
 
