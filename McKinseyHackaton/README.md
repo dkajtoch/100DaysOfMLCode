@@ -30,8 +30,9 @@ There was no strategy in case of XGBoost. For other models I imputed missing val
 In case of Neural Network `Income` was transformed using `log(x)` function and `age_in_days` using Box-Cox transform (optimal). I also used `StandardScaler` for all features.
 
 # Summary
+5000+ people registered. 900+ participants in the competition. Score distribution on the public and private leaderboard is presenetd below. 
 
-<img src="./figures/summary_score.svg" width=800 height="400" />
+<img src="./figures/summary_score.svg" width=1000 height="600" />
 
 # Results
 * 2nd on the public leaderboard.
