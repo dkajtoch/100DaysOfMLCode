@@ -1,3 +1,4 @@
+from __future__ import print_function
 import numpy as np
 from scipy.optimize import minimize_scalar
 
@@ -92,7 +93,7 @@ def revenue(x, premium, p=1.):
     proba = p*(1. + renewal_incentives(x)/100.)
     proba = proba if proba<=1.0 else 1.0
 
-    return proba - x
+    return premium * proba - x
 
 def optimal_revenue(premium, p=1.):
     """
@@ -124,8 +125,8 @@ def optimal_revenue(premium, p=1.):
     return(res.x, -res.fun)
 
 if __name__ == '__main__':
-    print effort_incentives(0.1)
-    print renewal_effort(0.1)
-    print renewal_incentives(0.1)
-    print revenue(0.1, 200, 0.5)
-    print optimal_revenue(200,0.5)
+    print(effort_incentives(0.1))
+    print(renewal_effort(0.1))
+    print(renewal_incentives(0.1))
+    print(revenue(0.1, 200, 0.5))
+    print(optimal_revenue(200,0.5))
